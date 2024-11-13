@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aeroport SYSTEM "file:/C:/Program%20Files%20(x86)/XML%20Copy%20Editor/Tpp.dtd">
+
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<aeroport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Program%20Files%20(x86)/XML%20Copy%20Editor/tppp.xsd">
+    <employes>
+        <employe>
+            <nomEmploye>Omar Benzakour</nomEmploye>
+            <age>22</age>
+            <role>Pilote</role>
+        </employe>
+        <employe>
+            <nomEmploye>Leo Nar</nomEmploye>
+            <age>34</age>
+            <role>Pilote</role>
+        </employe>
+    </employes>
+    
+    <pistes>
+        <piste>
+            <id>01</id>
+            <longueur>3500</longueur>
+            <capacitePiste>Large</capacitePiste>
+        </piste>
+        <piste>
+            <id>02</id>
+            <longueur>2800</longueur>
+            <capacitePiste>Moyenne</capacitePiste>
+        </piste>
+    </pistes>
+    
+    <compagnies>
+        <compagnieNom>
+            <nomCompagnie>Air France</nomCompagnie>
+            <code>AF</code>
+            <pays>France</pays>
+        </compagnieNom>
+        <compagnieNom>
+            <nomCompagnie>Air Maroc</nomCompagnie>
+            <code>AM</code>
+            <pays>Maroc</pays>
+        </compagnieNom>
+    </compagnies>
+    
+    <avions>
+        <avion>
+            <immatriculation>1234</immatriculation>
+            <modele>Airbus A320</modele>
+            <capaciteAvion>180</capaciteAvion>
+            <compagnieAvion>Air France</compagnieAvion>
+        </avion>
+        <avion>
+            <immatriculation>b1234</immatriculation>
+            <modele>Boeing 737</modele>
+            <capaciteAvion>160</capaciteAvion>
+            <compagnieAvion>Air Maroc</compagnieAvion>
+        </avion>
+    </avions>
+    
+    <vols>
+        <vol>
+            <numero>V01</numero>
+            <avionRef>1234</avionRef>
+            <pisteRef>01</pisteRef>
+            <destination>New York</destination>
+            <heure_depart>2024-11-15T10:00</heure_depart>
+            <heure_arrivee>2024-11-15T14:00</heure_arrivee>
+        </vol>
+        <vol>
+            <numero>V02</numero>
+            <avionRef>b1234</avionRef>
+            <pisteRef>02</pisteRef>
+            <destination>Amsterdam</destination>
+            <heure_depart>2024-11-15T12:30</heure_depart>
+            <heure_arrivee>2024-11-15T15:00</heure_arrivee>
+        </vol>
+    </vols>
+</aeroport>

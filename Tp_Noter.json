@@ -1,0 +1,73 @@
+{
+    "aeroport": {
+      "employes": [
+        {
+          "nomEmploye": "Omar Benzakour",
+          "age": 22,
+          "role": "Pilote"
+        },
+        {
+          "nomEmploye": "Leo Nar",
+          "age": 34,
+          "role": "Pilote"
+        }
+      ],
+      "pistes": [
+        {
+          "id": "01",
+          "longueur": 3500,
+          "capacitePiste": "Large"
+        },
+        {
+          "id": "02",
+          "longueur": 2800,
+          "capacitePiste": "Moyenne"
+        }
+      ],
+      "compagnies": [
+        {
+          "nomCompagnie": "Air France",
+          "code": "AF",
+          "pays": "France"
+        },
+        {
+          "nomCompagnie": "Air Maroc",
+          "code": "AM",
+          "pays": "Maroc"
+        }
+      ],
+      "avions": [
+        {
+          "immatriculation": "1234",
+          "modele": "Airbus A320",
+          "capaciteAvion": 180,
+          "compagnieAvion": "Air France"
+        },
+        {
+          "immatriculation": "b1234",
+          "modele": "Boeing 737",
+          "capaciteAvion": 160,
+          "compagnieAvion": "Air Maroc"
+        }
+      ],
+      "vols": [
+        {
+          "numero": "V01",
+          "avionRef": "1234",
+          "pisteRef": "01",
+          "destination": "New York",
+          "heure_depart": "2024-11-15T10:00",
+          "heure_arrivee": "2024-11-15T14:00"
+        },
+        {
+          "numero": "V02",
+          "avionRef": "b1234",
+          "pisteRef": "02",
+          "destination": "Amsterdam",
+          "heure_depart": "2024-11-15T12:30",
+          "heure_arrivee": "2024-11-15T15:00"
+        }
+      ]
+    }
+  }
+  
